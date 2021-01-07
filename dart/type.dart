@@ -9,6 +9,12 @@ void main() {
   // 字符串
   String a2 = '456';
   String a21 = '456';
+  // 换行
+  String aa2 ="""
+  654
+  5151
+  """;
+  print(aa2);
   // 字符串拼接
   print("$a2 $a21");
   print(a2 + a21);
@@ -58,7 +64,7 @@ void main() {
   addAll      拼接数组
   indexOf     查找  传入具体值
   remove      删除  传入具体值
-  removeAt    删除  传入索引值
+  removeAt    删除  传入索引值 
   fillRange   修改   
   insert(index,value);            指定位置插入    
   insertAll(index,list)           指定位置插入List
@@ -129,6 +135,8 @@ void main() {
   // 类型判断
   var ss = 123;
   print(ss is String);
+  // 运行时类型
+  print(ss.runtimeType);
 
   // 算数运算符
   int a = 13;
